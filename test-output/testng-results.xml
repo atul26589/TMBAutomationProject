@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30670" started-at="2023-06-01T13:41:22 IST" finished-at="2023-06-01T13:41:53 IST">
+    <groups>
+    </groups>
+    <test name="TMBAutomationTestSuite" duration-ms="30670" started-at="2023-06-01T13:41:22 IST" finished-at="2023-06-01T13:41:53 IST">
+      <class name="com.tmb.auto.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tmb.auto.tests.HomePageTest@37374a5e]" name="beforeSuite" is-config="true" duration-ms="532" started-at="2023-06-01T13:41:22 IST" finished-at="2023-06-01T13:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.auto.tests.HomePageTest@37374a5e]" name="setUp" is-config="true" duration-ms="15124" started-at="2023-06-01T13:41:22 IST" finished-at="2023-06-01T13:41:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.auto.tests.HomePageTest.loginHomePageTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginHomePageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tmb.auto.tests.HomePageTest@37374a5e]" name="loginHomePageTest" duration-ms="1331" started-at="2023-06-01T13:41:38 IST" description="to check whether the user can login to orangehrm application &amp; validate the page title" data-provider="getData" finished-at="2023-06-01T13:41:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.tmb.reports.ExtentLogger.pass(ExtentLogger.java:6)
+at com.tmb.utils.SeleniumUtils.sendKeys(SeleniumUtils.java:35)
+at com.tmb.pages.LoginPage.setUserName(LoginPage.java:18)
+at com.tmb.pages.LoginPage.loginToApplication(LoginPage.java:36)
+at com.tmb.auto.tests.HomePageTest.loginHomePageTest(HomePageTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tmb.auto.tests.HomePageTest@37374a5e]" name="tearDown" is-config="true" duration-ms="1102" started-at="2023-06-01T13:41:39 IST" finished-at="2023-06-01T13:41:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tmb.auto.tests.HomePageTest@37374a5e]" name="afterSuite" is-config="true" duration-ms="1348" started-at="2023-06-01T13:41:53 IST" finished-at="2023-06-01T13:41:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tmb.auto.tests.HomePageTest -->
+      <class name="com.tmb.auto.tests.PaymentTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.auto.tests.PaymentTest@cb0ed20]" name="setUp" is-config="true" duration-ms="14766" started-at="2023-06-01T13:41:22 IST" finished-at="2023-06-01T13:41:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.auto.tests.PaymentTest.Test2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.tmb.auto.tests.PaymentTest@cb0ed20]" name="Test2" duration-ms="14675" started-at="2023-06-01T13:41:37 IST" finished-at="2023-06-01T13:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tmb.auto.tests.PaymentTest@cb0ed20]" name="tearDown" is-config="true" duration-ms="1111" started-at="2023-06-01T13:41:52 IST" finished-at="2023-06-01T13:41:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.auto.tests.PaymentTest -->
+    </test> <!-- TMBAutomationTestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
